@@ -21,7 +21,7 @@ end
 
 
 def count_elements(hashes)
-
+binding.pry
   hashes.reduce([]) do |counts_array, hash|
     
     count_hash = counts_array.find do |counted_hash|
